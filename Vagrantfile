@@ -68,7 +68,7 @@
           :server_aliases =>  [ "www." + project_name + ".local" ],
 
           # Document root for Apache vhost
-          :docroot        => "/var/www/" + project_name + "/public",
+          :docroot        => "/var/www/" + project_name,
 
           # General packages
           :packages   => %w{ vim git screen curl },
